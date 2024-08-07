@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hotrod
+spec:
+  template:
+    spec:
+      nodeSelector:
+        nodegroup: app
